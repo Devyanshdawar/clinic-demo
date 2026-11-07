@@ -48,7 +48,7 @@ export async function POST(request: Request) {
         });
 
         await transporter.sendMail({
-          from: process.env.SMTP_FROM || `"Veritas Clinic Web" <${smtpUser}>`,
+          from: process.env.SMTP_FROM || `"Demo Clinic Web" <${smtpUser}>`,
           to: recipientEmail,
           replyTo: validatedData.email,
           subject: emailSubject,

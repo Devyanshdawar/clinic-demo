@@ -7,9 +7,9 @@ import MedicalDisclaimerBanner from "@/components/ui/MedicalDisclaimerBanner";
 import { Award, ShieldCheck, HeartHandshake } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Our Medical Specialists & Doctors | Veritas Clinic",
+  title: "Our Medical Specialists & Doctors | Demo Clinic",
   description:
-    "Meet our team of licensed chiropractors, sports physiotherapists, orthopedic surgeons, and aesthetic physicians in Bengaluru. UK, Germany, and AIIMS accredited.",
+    "Meet our team of licensed chiropractors, sports physiotherapists, orthopedic surgeons, and aesthetic physicians. Internationally trained and accredited.",
 };
 
 export default function DoctorsPage() {

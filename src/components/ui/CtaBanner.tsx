@@ -11,14 +11,14 @@ interface CtaBannerProps {
 
 export default function CtaBanner({
   title = "Ready to Experience Pain-Free Motion & Enhanced Vitality?",
-  subtitle = "Schedule your comprehensive evaluation with our multidisciplinary clinical team in Indiranagar, Bengaluru.",
+  subtitle = "Schedule your comprehensive evaluation with our multidisciplinary clinical team at our healthcare facility.",
   primaryButtonText = "Schedule Consultation",
   primaryButtonLink = "/book-appointment",
 }: CtaBannerProps) {
   const whatsappUrl = `https://wa.me/${clinicData.whatsappNumber.replace(
     /[^\d]/g,
     ""
-  )}?text=${encodeURIComponent("Hello Veritas Clinic, I would like to schedule a consultation.")}`;
+  )}?text=${encodeURIComponent("Hello Demo Clinic, I would like to schedule a consultation.")}`;
 
   return (
     <div className="relative rounded-3xl overflow-hidden bg-brand-950 text-white p-8 sm:p-12 lg:p-14 shadow-elevated border border-brand-800">

@@ -20,7 +20,7 @@ import { galleryItems } from "@/data/gallery";
 export const metadata: Metadata = {
   title: "About Our Clinic, Story & Medical Technology",
   description:
-    "Learn about Veritas Spine, Ortho & Aesthetic Clinic—our founding philosophy, multidisciplinary synergy, advanced diagnostic technologies, and patient-first standards.",
+    "Learn about our multi-specialty clinic—our founding philosophy, multidisciplinary synergy, advanced diagnostic technologies, and patient-first standards.",
 };
 
 export default function AboutPage() {
@@ -74,16 +74,16 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-6 space-y-5 text-stone-700 text-sm sm:text-base leading-relaxed">
             <h2 className="font-serif text-3xl font-bold text-stone-900">
-              Why We Founded Veritas
+              Why We Founded Our Clinic
             </h2>
             <p>
               For years, patients suffering from chronic pain experienced an exhausting medical merry-go-round. An orthopedic surgeon might advise immediate surgery, while an isolated therapist offered exercise without diagnostic confirmation, and a chiropractor worked in a silo without surgical liaison.
             </p>
             <p>
-              In 2018, our founders—Dr. Arjun Mehta, Dr. Priya Sharma, and Dr. Vikram Singh—decided to dissolve these artificial barriers. They recognized that patient outcomes accelerate dramatically when <strong>Chiropractic Biomechanics</strong>, <strong>Kinetic Physiotherapy</strong>, and <strong>Orthopedic Diagnostics</strong> sit at the very same table.
+              In 2018, our founders—Doctor 1, Doctor 2, and Doctor 3—decided to dissolve these artificial barriers. They recognized that patient outcomes accelerate dramatically when <strong>Chiropractic Biomechanics</strong>, <strong>Kinetic Physiotherapy</strong>, and <strong>Orthopedic Diagnostics</strong> sit at the very same table.
             </p>
             <p>
-              Later, welcoming Dr. Ananya Roy to head our <strong>Clinical Aesthetics & Skin Medicine</strong> suite fulfilled our broader vision: true vitality encompasses both physical mobility and confidence in one’s natural personal presentation.
+              Later, welcoming Doctor 4 to head our <strong>Clinical Aesthetics & Skin Medicine</strong> suite fulfilled our broader vision: true vitality encompasses both physical mobility and confidence in one’s natural personal presentation.
             </p>
 
             <div className="pt-3 grid grid-cols-2 gap-4">
@@ -102,7 +102,7 @@ export default function AboutPage() {
             <div className="relative h-[420px] sm:h-[480px] rounded-3xl overflow-hidden shadow-elevated border-4 border-white">
               <Image
                 src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80"
-                alt="Veritas Facility"
+                alt="Clinic Facility"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover"
@@ -117,7 +117,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             badge="Our Guiding Ethos"
-            title="The 4 Pillars of Veritas Care"
+            title="The 4 Pillars of Our Clinical Care"
             subtitle="The uncompromising standards that guide every consultation, injection, and adjustment."
           />
 

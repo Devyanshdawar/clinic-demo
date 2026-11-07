@@ -213,7 +213,7 @@ function BookingForm() {
     /[^\d]/g,
     ""
   )}?text=${encodeURIComponent(
-    `Hello Veritas Clinic, I would like to book an appointment for ${formData.service} with ${formData.doctor || "a specialist"}.`
+    `Hello Demo Clinic, I would like to book an appointment for ${formData.service} with ${formData.doctor || "a specialist"}.`
   )}`;
 
   // Render Confirmation Screen
@@ -756,7 +756,7 @@ function BookingForm() {
                   className="mt-1 w-4 h-4 rounded text-brand-900 focus:ring-brand-700"
                 />
                 <span className="text-xs text-stone-600 leading-relaxed">
-                  I consent to Veritas Clinic storing my details to coordinate this appointment and sending confirmation via SMS/Email/WhatsApp. I understand this booking request is subject to clinic confirmation. *
+                  I consent to the clinic storing my details to coordinate this appointment and sending confirmation via SMS/Email/WhatsApp. I understand this booking request is subject to clinic confirmation. *
                 </span>
               </label>
               {formErrors.consent && (
@@ -829,7 +829,7 @@ export default function BookAppointmentPage() {
           Book Your Appointment
         </h1>
         <p className="text-sm sm:text-base text-stone-600 leading-relaxed">
-          Follow our 4-step intake form to match with the appropriate specialist at our Indiranagar clinic.
+          Follow our 4-step intake form to match with the appropriate specialist at our clinic.
         </p>
       </div>
 

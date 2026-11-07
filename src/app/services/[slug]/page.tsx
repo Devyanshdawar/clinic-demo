@@ -42,10 +42,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${service.title} | Veritas Clinic`,
+    title: `${service.title} | Demo Clinic`,
     description: service.description.slice(0, 160),
     openGraph: {
-      title: `${service.title} - Veritas Spine, Ortho & Aesthetic Clinic`,
+      title: `${service.title} - Multi-Specialty Demo Clinic`,
       description: service.tagline,
       images: [{ url: service.heroImage }],
     },
@@ -288,7 +288,7 @@ export default async function ServiceDetailPage({ params }: Props) {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <CtaBanner
           title={`Schedule Your ${service.shortTitle} Consultation`}
-          subtitle={`Take the decisive first step toward relief. Our ${service.shortTitle} team in Indiranagar is ready to evaluate your condition.`}
+          subtitle={`Take the decisive first step toward relief. Our ${service.shortTitle} clinical team is ready to evaluate your condition.`}
           primaryButtonText={`Book ${service.shortTitle}`}
           primaryButtonLink={`/book-appointment?service=${service.id}`}
         />

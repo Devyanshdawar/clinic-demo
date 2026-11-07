@@ -14,11 +14,11 @@ export default function Footer() {
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="flex items-center space-x-3 group">
               <div className="w-10 h-10 rounded-xl bg-brand-800 flex items-center justify-center text-white shadow-md">
-                <span className="font-serif text-2xl font-bold text-gold-300">V</span>
+                <span className="font-serif text-2xl font-bold text-gold-300">D</span>
               </div>
               <div>
                 <span className="font-serif font-bold text-2xl text-white tracking-tight">
-                  VERITAS
+                  DEMO CLINIC
                 </span>
                 <p className="text-[10px] uppercase tracking-wider text-gold-400 font-medium">
                   Spine • Orthopedics • Physio • Aesthetics

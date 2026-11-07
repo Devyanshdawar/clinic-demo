@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${doctor.name} - ${doctor.title} | Veritas Clinic`,
+    title: `${doctor.name} - ${doctor.title} | Demo Clinic`,
     description: doctor.bio.slice(0, 160),
     openGraph: {
       title: `${doctor.name} - ${doctor.specialtyLabel}`,
@@ -297,7 +297,7 @@ export default async function DoctorProfilePage({ params }: Props) {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <CtaBanner
           title={`Schedule with ${doctor.name}`}
-          subtitle={`Consult directly with ${doctor.name} at our Indiranagar clinic. Dedicated diagnostic time for your recovery.`}
+          subtitle={`Consult directly with ${doctor.name} at our clinic facility. Dedicated diagnostic time for your recovery.`}
           primaryButtonText="Book In-Person Visit"
           primaryButtonLink={`/book-appointment?doctor=${encodeURIComponent(doctor.name)}&service=${doctor.specialty}`}
         />

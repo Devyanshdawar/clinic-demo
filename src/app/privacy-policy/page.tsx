@@ -4,9 +4,9 @@ import { ShieldCheck } from "lucide-react";
 import { clinicData } from "@/data/clinic";
 
 export const metadata: Metadata = {
-  title: "Patient Data Privacy Policy | Veritas Clinic",
+  title: "Patient Data Privacy Policy | Demo Clinic",
   description:
-    "How Veritas Clinic safeguards patient medical records, personal information, and digital communications.",
+    "How our clinic safeguards patient medical records, personal information, and digital communications.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -69,7 +69,7 @@ export default function PrivacyPolicyPage() {
           5. Contact Our Privacy Officer
         </h3>
         <p>
-          For inquiries or requests regarding data correction or record deletion, please reach our privacy coordinator at <a href={`mailto:${clinicData.email}`} className="text-brand-800 font-semibold underline">{clinicData.email}</a> or visit us at our Indiranagar clinic.
+          For inquiries or requests regarding data correction or record deletion, please reach our privacy coordinator at <a href={`mailto:${clinicData.email}`} className="text-brand-800 font-semibold underline">{clinicData.email}</a> or visit us at our clinic facility.
         </p>
       </div>
 

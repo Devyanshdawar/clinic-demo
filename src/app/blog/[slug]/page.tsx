@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${article.title} | Veritas Patient Resources`,
+    title: `${article.title} | Demo Clinic Resources`,
     description: article.excerpt,
     openGraph: {
       title: article.title,
@@ -164,7 +164,7 @@ export default async function ArticleDetailPage({ params }: Props) {
               {article.author.name}
             </h3>
             <p className="text-xs text-brand-700 font-medium">
-              {article.author.role} at Veritas Clinic
+              {article.author.role} at Demo Clinic
             </p>
             <p className="text-xs text-stone-600">
               Passionate about patient health literacy, biomechanical wellness, and ethical medical education.

@@ -33,7 +33,7 @@ export const faqsData: FAQItem[] = [
   },
   {
     category: "physiotherapy",
-    question: "How is physiotherapy at Veritas different from a regular gym or fitness training?",
+    question: "How is physiotherapy at this clinic different from a regular gym or fitness training?",
     answer:
       "Our physiotherapy is medical, diagnostic, and biomechanically targeted. Our licensed physical therapists understand neuromuscular pathology, tissue healing phases, and surgical restrictions. Exercises are prescribed like medicine with specific angles, velocity, and loads designed to rehabilitate without re-injuring.",
   },
@@ -47,7 +47,7 @@ export const faqsData: FAQItem[] = [
     category: "aesthetics",
     question: "Will aesthetic treatments make my face look unnatural or 'frozen'?",
     answer:
-      "Never at Veritas. Our aesthetic physicians practice 'undetectable rejuvenation.' We honor natural facial dynamics and micro-dose treatments so you look rested, revitalized, and youthful—never artificial.",
+      "Never at our clinic. Our aesthetic physicians practice 'undetectable rejuvenation.' We honor natural facial dynamics and micro-dose treatments so you look rested, revitalized, and youthful—never artificial.",
   },
 ];
 

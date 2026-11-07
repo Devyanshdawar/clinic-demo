@@ -77,7 +77,7 @@ export default function Navbar() {
             </span>
             <span className="flex items-center space-x-1.5 text-stone-300">
               <MapPin className="w-3.5 h-3.5 text-gold-400" />
-              <span>Indiranagar, Bengaluru</span>
+              <span>Medical District, Metro City</span>
             </span>
           </div>
           <div className="flex items-center space-x-6">
@@ -107,11 +107,11 @@ export default function Navbar() {
           {/* Logo & Brand Identity */}
           <Link href="/" className="flex items-center space-x-3 group">
             <div className="w-11 h-11 rounded-xl bg-brand-900 flex items-center justify-center text-white shadow-md group-hover:bg-brand-800 transition-colors">
-              <span className="font-serif text-2xl font-bold tracking-tighter text-gold-300">V</span>
+              <span className="font-serif text-2xl font-bold tracking-tighter text-gold-300">D</span>
             </div>
             <div>
               <div className="font-serif font-bold text-xl md:text-2xl text-stone-900 tracking-tight leading-tight">
-                VERITAS
+                DEMO CLINIC
               </div>
               <p className="text-[10px] md:text-[11px] font-medium tracking-wider uppercase text-brand-700">
                 Spine • Ortho • Physio • Aesthetics

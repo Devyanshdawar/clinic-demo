@@ -3,9 +3,9 @@ import Link from "next/link";
 import { clinicData } from "@/data/clinic";
 
 export const metadata: Metadata = {
-  title: "Terms of Service & Clinic Guidelines | Veritas Clinic",
+  title: "Terms of Service & Clinic Guidelines | Demo Clinic",
   description:
-    "Terms of service, appointment cancellation protocol, and code of conduct for Veritas Clinic.",
+    "Terms of service, appointment cancellation protocol, and code of conduct for our clinic.",
 };
 
 export default function TermsOfServicePage() {
@@ -16,7 +16,7 @@ export default function TermsOfServicePage() {
           Terms of Service &amp; Appointment Protocols
         </h1>
         <p className="text-xs text-stone-500">
-          Effective Date: January 1, 2025 • Veritas Spine, Ortho &amp; Aesthetic Clinic
+          Effective Date: January 1, 2025 • Multi-Specialty Demo Clinic
         </p>
       </div>
 
@@ -39,7 +39,7 @@ export default function TermsOfServicePage() {
           3. Patient Conduct &amp; Zero Tolerance Policy
         </h3>
         <p>
-          Veritas maintains a safe, respectful environment for patients and clinical staff alike. Aggressive behavior, harassment, or verbal abuse toward medical or administrative team members will result in immediate termination of consultation without refund.
+          Our clinic maintains a safe, respectful environment for patients and clinical staff alike. Aggressive behavior, harassment, or verbal abuse toward medical or administrative team members will result in immediate termination of consultation without refund.
         </p>
 
         <h3 className="font-serif text-lg font-bold text-stone-900">

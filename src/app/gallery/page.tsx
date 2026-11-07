@@ -142,7 +142,7 @@ export default function GalleryPage() {
 
       <CtaBanner
         title="Experience Our Facility in Person"
-        subtitle="Book a consultation and take a private tour of our treatment suites in Indiranagar, Bengaluru."
+        subtitle="Book a consultation and take a private tour of our treatment suites at our clinic facility."
       />
     </div>
   );

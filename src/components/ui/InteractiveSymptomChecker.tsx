@@ -34,7 +34,7 @@ export default function InteractiveSymptomChecker() {
       area: "Neck & Upper Spine",
       recommendedSpecialty: "chiropractic",
       specialtyName: "Chiropractic Care & Spine Alignment",
-      doctorName: "Dr. Arjun Mehta",
+      doctorName: "Doctor 1 (Chiropractic Specialist)",
       rationale:
         "Suboccipital tension and forward head posture compress cervical facet joints, producing cervicogenic headaches. Gentle spinal adjustments and flexion-distraction decompress nerve roots at the source.",
       badge: "Targeted Spine Decompression",
@@ -45,7 +45,7 @@ export default function InteractiveSymptomChecker() {
       area: "Lower Back & Legs",
       recommendedSpecialty: "chiropractic",
       specialtyName: "Chiropractic Care (Cox Decompression)",
-      doctorName: "Dr. Arjun Mehta",
+      doctorName: "Doctor 1 (Chiropractic Specialist)",
       rationale:
         "When an L4-L5 or L5-S1 disc impinges on the sciatic nerve, specialized non-rotational motorized traction reduces intradiscal pressure to relieve nerve irritation.",
       badge: "Non-Surgical Disc Relief",
@@ -56,7 +56,7 @@ export default function InteractiveSymptomChecker() {
       area: "Knees, Shoulders & Ligaments",
       recommendedSpecialty: "physiotherapy",
       specialtyName: "Physiotherapy & Sports Medicine",
-      doctorName: "Dr. Priya Sharma",
+      doctorName: "Doctor 2 (Physiotherapy Specialist)",
       rationale:
         "Rebuilding neuromuscular firing patterns, joint stability, and restoring 100% limb symmetry through progressive kinetic exercise, dry needling, and acoustic shockwave.",
       badge: "Active Functional Reconditioning",
@@ -67,7 +67,7 @@ export default function InteractiveSymptomChecker() {
       area: "Major Weight-Bearing Joints",
       recommendedSpecialty: "orthopedics",
       specialtyName: "Orthopedics & Joint Preservation",
-      doctorName: "Dr. Vikram Singh",
+      doctorName: "Doctor 3 (Orthopedic Specialist)",
       rationale:
         "Evaluating joint space narrowing via point-of-care ultrasound, offering hyaluronic viscosupplementation injections and offloader bracing to postpone or eliminate surgical replacement.",
       badge: "Joint-Sparing Biologics",
@@ -78,7 +78,7 @@ export default function InteractiveSymptomChecker() {
       area: "Facial Aesthetics & Dermatology",
       recommendedSpecialty: "aesthetics",
       specialtyName: "Clinical Aesthetics & Skin Medicine",
-      doctorName: "Dr. Ananya Roy",
+      doctorName: "Doctor 4 (Aesthetic Medicine Specialist)",
       rationale:
         "Doctor-delivered fractional RF microneedling and multi-spectral skin analysis to trigger true dermal neo-collagenesis while preserving subtle, natural facial expressions.",
       badge: "Medical Dermal Collagenesis",

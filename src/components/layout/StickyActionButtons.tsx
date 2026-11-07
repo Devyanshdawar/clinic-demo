@@ -17,7 +17,7 @@ export default function StickyActionButtons() {
         href={whatsappUrl}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Chat with Veritas Clinic on WhatsApp"
+        aria-label="Chat with Demo Clinic on WhatsApp"
         className="pointer-events-auto flex items-center space-x-2 bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-3 rounded-full shadow-elevated transition-transform transform hover:scale-105 group"
       >
         <MessageCircle className="w-5 h-5 fill-current text-white" />

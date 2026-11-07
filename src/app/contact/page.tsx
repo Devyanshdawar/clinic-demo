@@ -59,7 +59,7 @@ export default function ContactPage() {
   const whatsappDirectUrl = `https://wa.me/${clinicData.whatsappNumber.replace(
     /[^\d]/g,
     ""
-  )}?text=${encodeURIComponent("Hello Veritas Clinic, I would like to inquire about appointments and clinic services.")}`;
+  )}?text=${encodeURIComponent("Hello Demo Clinic, I would like to inquire about appointments and clinic services.")}`;
 
   return (
     <div className="space-y-16 py-12 sm:py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -67,7 +67,7 @@ export default function ContactPage() {
       <div className="text-center max-w-2xl mx-auto space-y-4">
         <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-brand-50 border border-brand-200 text-xs font-semibold text-brand-800">
           <MapPin className="w-3.5 h-3.5 text-gold-600" />
-          <span>Indiranagar, Bengaluru</span>
+          <span>Medical District, Metro City</span>
         </div>
         <h1 className="font-serif text-4xl sm:text-5xl font-bold text-stone-900 tracking-tight">
           Contact &amp; Clinic Location
@@ -321,7 +321,7 @@ export default function ContactPage() {
                       className="mt-0.5 w-4 h-4 rounded text-brand-900 focus:ring-brand-700"
                     />
                     <span className="text-xs text-stone-600">
-                      I agree to allow Veritas Clinic to contact me regarding this inquiry. *
+                      I agree to allow the clinic care coordination team to contact me regarding this inquiry. *
                     </span>
                   </label>
                 </div>
@@ -348,7 +348,7 @@ export default function ContactPage() {
               Interactive Location Map
             </h4>
             <p className="text-xs text-stone-600">
-              Suite 402-405, Wellness Pavilion, 124 Park Avenue, Indiranagar, Bengaluru
+              {clinicData.address.full}
             </p>
           </div>
           <a
@@ -362,7 +362,7 @@ export default function ContactPage() {
         </div>
         <div className="h-96 w-full">
           <iframe
-            title="Veritas Clinic Map"
+            title="Clinic Location Map"
             src={clinicData.mapEmbedUrl}
             width="100%"
             height="100%"

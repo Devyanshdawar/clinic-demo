@@ -73,7 +73,7 @@ export default function ServicesOverviewPage() {
                 Orthopedics + Kinetic Conditioning
               </h3>
               <p className="text-xs sm:text-sm text-stone-600 leading-relaxed">
-                When knee osteoarthritis or shoulder impingement is evaluated, Dr. Vikram Singh provides diagnostic ultrasound and lubrication injections while our rehab team corrects lower-limb gait discrepancies.
+                When knee osteoarthritis or shoulder impingement is evaluated, our senior orthopedic surgeon provides diagnostic ultrasound and lubrication injections while our rehab team corrects lower-limb gait discrepancies.
               </p>
             </div>
 
@@ -85,7 +85,7 @@ export default function ServicesOverviewPage() {
                 Clinical Aesthetics + Wellness
               </h3>
               <p className="text-xs sm:text-sm text-stone-600 leading-relaxed">
-                Healthy posture and musculoskeletal balance naturally improve neck lines, jawline alignment, and facial symmetry, complemented by Dr. Ananya Roy’s medically supervised dermal collagen protocols.
+                Healthy posture and musculoskeletal balance naturally improve neck lines, jawline alignment, and facial symmetry, complemented by our aesthetic physician’s medically supervised dermal collagen protocols.
               </p>
             </div>
           </div>

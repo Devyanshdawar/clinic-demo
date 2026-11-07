@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   description: clinicData.description,
   keywords: [
     "Chiropractor near me",
-    "Spinal decompression Bengaluru",
+    "Spinal decompression therapy",
     "Sports physiotherapy clinic",
     "Orthopedic specialist",
     "Knee joint preservation",

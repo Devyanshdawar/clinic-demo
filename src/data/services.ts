@@ -123,7 +123,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "Yes, when conducted by certified spine specialists. We employ gentle flexion-distraction and non-rotational decompression techniques specifically indicated for disc conditions.",
       },
     ],
-    assignedDoctorIds: ["dr-arjun-mehta"],
+    assignedDoctorIds: ["dr-1"],
   },
   physiotherapy: {
     id: "physiotherapy",
@@ -247,7 +247,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "Comfortable, flexible athletic clothing (shorts, t-shirt, or sports tank) and supportive running shoes so your therapist can easily examine the affected joint and guide you through movements.",
       },
     ],
-    assignedDoctorIds: ["dr-priya-sharma"],
+    assignedDoctorIds: ["dr-2"],
   },
   orthopedics: {
     id: "orthopedics",
@@ -371,7 +371,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "Absolutely. We encourage you to bring all past scans, discs, and reports. Our orthopedic specialists will review them in detail during your consultation.",
       },
     ],
-    assignedDoctorIds: ["dr-vikram-singh"],
+    assignedDoctorIds: ["dr-3"],
   },
   aesthetics: {
     id: "aesthetics",
@@ -495,7 +495,7 @@ export const servicesData: Record<string, ServiceDetail> = {
           "Yes. Our physicians specialize in treating diverse skin types (Fitzpatrick types I through VI) and use parameters specifically calibrated to prevent post-inflammatory hyperpigmentation (PIH).",
       },
     ],
-    assignedDoctorIds: ["dr-ananya-roy"],
+    assignedDoctorIds: ["dr-4"],
   },
 };
 

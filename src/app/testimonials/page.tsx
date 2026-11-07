@@ -27,7 +27,7 @@ export default function TestimonialsPage() {
           Patient Stories &amp; Clinical Outcomes
         </h1>
         <p className="text-base text-stone-600 leading-relaxed">
-          Read genuine feedback from patients who overcame debilitating disc herniations, post-operative stiffness, knee arthritis, and skin concerns at Veritas.
+          Read genuine feedback from patients who overcame debilitating disc herniations, post-operative stiffness, knee arthritis, and skin concerns at our clinic.
         </p>
       </div>
 
@@ -54,7 +54,7 @@ export default function TestimonialsPage() {
 
         <div>
           <div className="font-serif text-4xl font-bold text-white">98.2%</div>
-          <p className="text-xs text-stone-300 mt-1">Would Recommend Veritas to Friends &amp; Family</p>
+          <p className="text-xs text-stone-300 mt-1">Would Recommend Our Clinic to Friends &amp; Family</p>
         </div>
       </div>
 
@@ -92,7 +92,7 @@ export default function TestimonialsPage() {
 
       <CtaBanner
         title="Start Your Healing Story Today"
-        subtitle="Consult directly with our experienced physicians in Bengaluru."
+        subtitle="Consult directly with our experienced physicians at our clinic."
       />
     </div>
   );

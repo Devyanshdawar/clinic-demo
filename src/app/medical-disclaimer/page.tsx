@@ -4,7 +4,7 @@ import { ShieldAlert, AlertTriangle } from "lucide-react";
 import { clinicData } from "@/data/clinic";
 
 export const metadata: Metadata = {
-  title: "Medical & Clinical Disclaimer | Veritas Clinic",
+  title: "Medical & Clinical Disclaimer | Demo Clinic",
   description:
     "Important clinical notice regarding medical information, individualized patient outcomes, and emergency health situations.",
 };
@@ -68,7 +68,7 @@ export default function MedicalDisclaimerPage() {
           5. Third-Party Links &amp; Scientific Citations
         </h3>
         <p>
-          External links to clinical research databases, medical journals, or map navigations are provided for patient convenience. Veritas Clinic does not control nor endorse third-party software or unverified claims found on external websites.
+          External links to clinical research databases, medical journals, or map navigations are provided for patient convenience. Our clinic does not control nor endorse third-party software or unverified claims found on external websites.
         </p>
       </div>
 

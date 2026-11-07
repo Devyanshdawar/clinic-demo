@@ -42,7 +42,7 @@ export default function HomePage() {
               {/* Badge */}
               <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-brand-50 border border-brand-200/80 text-xs font-semibold text-brand-900 shadow-sm">
                 <span className="flex h-2 w-2 rounded-full bg-gold-500"></span>
-                <span>Bengaluru’s Integrated Spine, Rehab & Aesthetic Center</span>
+                <span>Integrated Spine, Rehab &amp; Aesthetic Medical Center</span>
               </div>
 
               {/* Main Headline */}
@@ -56,7 +56,7 @@ export default function HomePage() {
 
               {/* Subtitle */}
               <p className="text-base sm:text-lg text-stone-600 leading-relaxed max-w-2xl font-normal">
-                Veritas unites world-class <strong>Chiropractic Alignment</strong>, <strong>Evidence-Based Physiotherapy</strong>, <strong>Joint-Preserving Orthopedics</strong>, and <strong>Doctor-Led Medical Aesthetics</strong>. No rushed visits, zero aggressive sales—only ethical, multidisciplinary care tailored to your biology.
+                Our clinic unites world-class <strong>Chiropractic Alignment</strong>, <strong>Evidence-Based Physiotherapy</strong>, <strong>Joint-Preserving Orthopedics</strong>, and <strong>Doctor-Led Medical Aesthetics</strong>. No rushed visits, zero aggressive sales—only ethical, multidisciplinary care tailored to your biology.
               </p>
 
               {/* Primary Action Buttons */}
@@ -106,7 +106,7 @@ export default function HomePage() {
                 <div className="relative h-[440px] sm:h-[500px] w-full rounded-3xl overflow-hidden shadow-elevated border-4 border-white bg-stone-200">
                   <Image
                     src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1200&q=80"
-                    alt="Veritas Modern Multi-Specialty Clinic Facility"
+                    alt="Modern Multi-Specialty Clinic Facility"
                     fill
                     priority
                     sizes="(max-width: 1024px) 100vw, 45vw"
@@ -177,7 +177,7 @@ export default function HomePage() {
               <div className="relative h-96 sm:h-[460px] rounded-3xl overflow-hidden shadow-card border border-stone-200">
                 <Image
                   src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1000&q=80"
-                  alt="Veritas Clinical Consultation in Progress"
+                  alt="Clinical Consultation in Progress"
                   fill
                   sizes="(max-width: 1024px) 100vw, 40vw"
                   className="object-cover"
@@ -196,9 +196,9 @@ export default function HomePage() {
             {/* Content Column */}
             <div className="lg:col-span-7 space-y-6 order-1 lg:order-2">
               <SectionHeading
-                badge="The Veritas Distinction"
-                title="Why Discerning Patients Choose Veritas"
-                subtitle="From elite athletes to seniors seeking mobility, our care pathways prioritize patient autonomy, conservative non-surgical protocols, and measurable progress."
+                badge="The Clinical Distinction"
+                title="Why Discerning Patients Choose Our Clinic"
+                subtitle="From active athletes to seniors seeking mobility, our care pathways prioritize patient autonomy, conservative non-surgical protocols, and measurable progress."
                 align="left"
               />
 
@@ -348,7 +348,7 @@ export default function HomePage() {
               <div>
                 <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-brand-50 text-brand-900 text-xs font-semibold uppercase tracking-wider mb-3">
                   <MapPin className="w-3.5 h-3.5 text-gold-600" />
-                  <span>Central Bengaluru Location</span>
+                  <span>Central Healthcare Location</span>
                 </div>
 
                 <h3 className="font-serif text-2xl sm:text-3xl font-bold text-stone-900">
@@ -356,7 +356,7 @@ export default function HomePage() {
                 </h3>
 
                 <p className="mt-2 text-sm text-stone-600 leading-relaxed">
-                  Conveniently situated in Indiranagar with dedicated valet parking, elevator access, wheelchair accessibility, and soothing private suites.
+                  Conveniently situated with dedicated valet parking, elevator access, wheelchair accessibility, and soothing private suites.
                 </p>
               </div>
 
@@ -414,7 +414,7 @@ export default function HomePage() {
             {/* Embedded Google Map */}
             <div className="lg:col-span-6 h-80 sm:h-96 lg:h-auto min-h-[340px] relative bg-stone-100">
               <iframe
-                title="Veritas Clinic Location Map"
+                title="Clinic Location Map"
                 src={clinicData.mapEmbedUrl}
                 width="100%"
                 height="100%"

@@ -8,7 +8,7 @@ export const articlesData: Article[] = [
       "Looking down at screens increases the effective load on your cervical spine up to 60 pounds. Here is how our spine specialists recommend restructuring your daily workstation.",
     category: "Spine & Posture",
     author: {
-      name: "Dr. Arjun Mehta",
+      name: "Doctor 1 (Chiropractic Specialist)",
       role: "Lead Chiropractic Physician",
       image:
         "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=400&q=80",
@@ -54,7 +54,7 @@ If you experience radiating numbness, pins-and-needles down your arms, or freque
       "A successful ACL reconstruction is only 20% surgery and 80% disciplined rehabilitation. Discover how kinetic chain conditioning restores athletic confidence.",
     category: "Injury Rehabilitation",
     author: {
-      name: "Dr. Priya Sharma",
+      name: "Doctor 2 (Physiotherapy Specialist)",
       role: "Head of Physiotherapy",
       image:
         "https://images.unsplash.com/photo-1594824813576-963b51eebe82?auto=format&fit=crop&w=400&q=80",
@@ -95,7 +95,7 @@ Every year, thousands of athletes and weekend warriors suffer anterior cruciate 
       "Before committing to total knee arthroplasty, explore modern evidence-based conservative treatments: from viscosupplementation to regenerative biologics.",
     category: "Joint Health",
     author: {
-      name: "Dr. Vikram Singh",
+      name: "Doctor 3 (Orthopedic Specialist)",
       role: "Senior Consultant Orthopedic Surgeon",
       image:
         "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=400&q=80",
@@ -134,7 +134,7 @@ Weak hips lead to valgus knee collapse. Building hip abductor (*gluteus medius*)
       "Discover the scientific distinction between surface-level pampering and doctor-administered dermal collagen remodeling for true cellular anti-aging.",
     category: "Skin & Wellness",
     author: {
-      name: "Dr. Ananya Roy",
+      name: "Doctor 4 (Aesthetic Medicine Specialist)",
       role: "Consultant Dermatologist",
       image:
         "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=400&q=80",
@@ -167,4 +167,3 @@ In the rare event of an adverse reaction or vascular concern, a qualified medica
     `,
   },
 ];
-

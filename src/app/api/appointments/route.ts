@@ -51,7 +51,7 @@ export async function POST(request: Request) {
           <p style="margin: 0; color: #334155; line-height: 1.5;">${validatedData.chiefComplaint}</p>
         </div>
         <p style="margin-top: 25px; font-size: 12px; color: #64748b; text-align: center;">
-          Sent automatically from Veritas Spine, Ortho & Aesthetic Clinic Web Portal.
+          Sent automatically from Demo Clinic Web Portal.
         </p>
       </div>
     `;
@@ -77,7 +77,7 @@ export async function POST(request: Request) {
         });
 
         await transporter.sendMail({
-          from: process.env.SMTP_FROM || `"Veritas Clinic Bookings" <${smtpUser}>`,
+          from: process.env.SMTP_FROM || `"Demo Clinic Bookings" <${smtpUser}>`,
           to: recipientEmail,
           replyTo: validatedData.email,
           subject: emailSubject,
