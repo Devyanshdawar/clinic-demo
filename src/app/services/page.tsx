@@ -3,6 +3,7 @@ import Link from "next/link";
 import { servicesData } from "@/data/services";
 import SectionHeading from "@/components/ui/SectionHeading";
 import ServiceCard from "@/components/ui/ServiceCard";
+import TreatmentPricingEstimator from "@/components/ui/TreatmentPricingEstimator";
 import CtaBanner from "@/components/ui/CtaBanner";
 import MedicalDisclaimerBanner from "@/components/ui/MedicalDisclaimerBanner";
 import { CheckCircle2, ArrowRight } from "lucide-react";
@@ -89,6 +90,11 @@ export default function ServicesOverviewPage() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Treatment Pricing Estimator */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <TreatmentPricingEstimator />
       </section>
 
       {/* Medical Disclaimer Banner */}
