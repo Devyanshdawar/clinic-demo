@@ -6,6 +6,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import StickyActionButtons from "@/components/layout/StickyActionButtons";
 import CookieConsent from "@/components/layout/CookieConsent";
+import GoogleAnalytics from "@/components/analytics/GoogleAnalytics";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -158,6 +159,7 @@ export default function RootLayout({
         <Footer />
         <StickyActionButtons />
         <CookieConsent />
+        <GoogleAnalytics />
       </body>
     </html>
   );
