@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #faf9f6;
+  --foreground: #1c1917;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Accessible focus ring */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #0f766e;
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f0ea;
+}
+::-webkit-scrollbar-thumb {
+  background: #a99f84;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0f766e;
+}
+
+/* Aesthetic gold gradient accents */
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #c59b27 0%, #dfa837 50%, #b38728 100%);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #a97d1b 0%, #c59b27 50%, #865e18 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-teal-gradient {
+  background: linear-gradient(135deg, #0d5c58 0%, #134e4a 60%, #042f2e 100%);
+}
+
